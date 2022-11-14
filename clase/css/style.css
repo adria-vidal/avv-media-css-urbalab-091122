@@ -1,0 +1,43 @@
+body {
+    background-color: aqua;
+}
+
+.container {
+    background-color: red;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+}
+
+/* @media (min-width: 600px) {
+    .container {
+        background-color: blue;
+        width: 40vw;
+        height: 40vh;
+    }
+}
+
+@media (min-width: 700px) {
+    .container {
+        background-color: rgb(0, 255, 145);
+        width: 100vw;
+        height: 40vh;
+    }
+} */
+
+.box{
+    background-color: green;
+    width: 30vw;
+    height: 30vh;
+}
+@media (max-width: 500px) {
+.container{
+    display: block;
+}
+.box{
+    width: 100%;
+}
+
+}
